@@ -40,6 +40,7 @@ const Nav = styled.nav`
     display: flex;
     align-items: center;
     padding: 0 36px;
+    overflow-x: hidden;
 `
 
 const Logo = styled.img`
@@ -66,7 +67,6 @@ const NavMenu = styled.ul`
         span {
             font-size: 13px;
             letter-spacing: 1.42px;
-            color: #ffffff;
             position: relative;
 
             &:after {
