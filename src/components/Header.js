@@ -34,7 +34,6 @@ function Header() {
 export default Header
 
 const Nav = styled.nav`
-
     height: 70px;
     background: #090b13;
     display: flex;
@@ -48,7 +47,6 @@ const Logo = styled.img`
 `
 
 const NavMenu = styled.ul`
-
     display: flex;
     align-items: center;
     flex: 1;
@@ -98,5 +96,4 @@ const UserImg = styled.img`
     height: 48px;
     border-radius: 50%;
     cursor: pointer;
-
 `
